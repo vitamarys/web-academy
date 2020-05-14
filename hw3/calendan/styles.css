@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  background: #50e3c2;
+}
+body,
+button,
+tr,
+td {
+  margin: 0;
+  padding: 0;
+}
+
+.calendar {
+  margin: auto;
+}
+.form {
+  border: 1px solid #dfe4ef;
+  background-color: #fff;
+  border-radius: 4px;
+  width: 343px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 60px;
+  max-width: 960px;
+}
+
+.form-header {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  color: #2c3135;
+}
+.rl {
+  background: #fff;
+  border: none;
+  padding-left: 14px;
+  padding-top: 20px;
+  padding-right: 14px;
+  width: 9px;
+  height: 12px;
+  outline: none;
+}
+.mounth {
+  padding-left: 82px;
+  padding-right: 82px;
+  padding-top: 16px;
+}
+.btn,
+.command-btn {
+  border: none;
+  background: #fff;
+  outline: none;
+}
+.command-btn {
+  font-size: 10px;
+  line-height: 13px;
+  color: #2c3135;
+}
+.cancel {
+  width: 37px;
+  height: 13px;
+  margin-right: 215px;
+  margin-left: 48px;
+  margin-bottom: 24px;
+}
+.save {
+  width: 25px;
+  height: 13px;
+  margin-right: 13px;
+}
+
+.btn {
+  width: 44px;
+  height: 44px;
+}
+.calendar-btn {
+  padding-bottom: 15px;
+  margin: auto;
+  margin-left: 14px;
+}
+
+.day {
+  color: #7f8fa4;
+  padding-top: 20px;
+}
+.disable {
+  background: #edf2f5;
+  color: #bac2c7;
+  border-radius: 3px;
+}
+.active {
+  background: #50e3c2;
+  color: #ffffff;
+}
+.btn:hover {
+  background: #50e3c2;
+  color: #ffffff;
+}
+.btn:focus {
+  background: yellow;
+  color: #ffffff;
+}
+.command-btn:focus {
+  background: #50e3c2;
+  color: #ffffff;
+}

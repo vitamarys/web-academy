@@ -1,0 +1,9 @@
+.page-header > .page-content {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: flex-start;
+}
+.title {
+  font-size: var(--header-font-size);
+  color: var(--base-text-color);
+}

@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: var(--base-font-family);
+  color: var(--base-text-color);
+  background-color: var(--base-bg-color);
+}
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+body,
+button {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+.page-content {
+  max-width: var(--page-content-max-width);
+  width: 100%;
+  margin: 0 8px;
+}
+.page-section {
+  display: flex;
+  justify-content: center;
+}
+.button-name {
+  color: var(--base-text-color);
+  font-size: var(--base-font-size);
+}

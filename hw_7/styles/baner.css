@@ -1,0 +1,192 @@
+.grid-view {
+  display: flex;
+  justify-content: flex-start;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  padding: 6px;
+}
+
+[class*=col-] {
+  flex-grow: 0;
+  flex-shrink: 0;
+  min-height: 50px;
+  padding: 6px;
+}
+
+.col-1 {
+  width: 8.3333333333%;
+}
+
+.col-2 {
+  width: 16.6666666667%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.3333333333%;
+}
+
+.col-5 {
+  width: 41.6666666667%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.3333333333%;
+}
+
+.col-8 {
+  width: 66.6666666667%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.3333333333%;
+}
+
+.col-11 {
+  width: 91.6666666667%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+@media (max-width: 574px) {
+  .col-xs-1 {
+    width: 8.3333333333%;
+  }
+
+  .col-xs-2 {
+    width: 16.6666666667%;
+  }
+
+  .col-xs-3 {
+    width: 25%;
+  }
+
+  .col-xs-4 {
+    width: 33.3333333333%;
+  }
+
+  .col-xs-5 {
+    width: 41.6666666667%;
+  }
+
+  .col-xs-6 {
+    width: 50%;
+  }
+
+  .col-xs-7 {
+    width: 58.3333333333%;
+  }
+
+  .col-xs-8 {
+    width: 66.6666666667%;
+  }
+
+  .col-xs-9 {
+    width: 75%;
+  }
+
+  .col-xs-10 {
+    width: 83.3333333333%;
+  }
+
+  .col-xs-11 {
+    width: 91.6666666667%;
+  }
+
+  .col-xs-12 {
+    width: 100%;
+  }
+}
+.baner-section {
+  width: 100%;
+  height: 82vh;
+  background-image: url(../assets/Rectangle.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  position: relative;
+}
+
+.form {
+  position: absolute;
+  top: 25%;
+  left: 20%;
+}
+
+.input-form {
+  width: 441px;
+  height: 475px;
+  background: #ffffff;
+  box-shadow: 0px 16px 40px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  padding: 0 33px;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.form-name {
+  margin-top: 15px;
+}
+
+.input-line {
+  background: #ffffff;
+  border: 1px solid #ebebeb;
+  border-radius: 4px;
+  width: 50%;
+  height: 48px;
+}
+
+.input-line:nth-child(2) {
+  margin-left: 33px;
+}
+
+.big {
+  width: 100%;
+  height: 48px;
+}
+
+.input-name {
+  display: block;
+  width: 50%;
+  font-size: 12px;
+}
+
+.button-warper {
+  margin-left: 256px;
+  width: 153px;
+  height: 48px;
+  border: 1px solid #ff5a5f;
+  background: #ff5a5f;
+  border-radius: 4px;
+}
+
+.button-name {
+  font-size: 16px;
+  color: #ffffff;
+}
+
+@media (max-width: 574px) {
+  .form {
+    display: none;
+  }
+
+  .baner-section {
+    height: 50vh;
+  }
+}
+
+/*# sourceMappingURL=baner.css.map */

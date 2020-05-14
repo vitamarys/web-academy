@@ -1,0 +1,24 @@
+@import "./grid.scss";
+@import "./variables.scss";
+.page-header {
+  background-color: #1b1b1b;
+  display: flex;
+  justify-content: flex-end;
+  height: 60px;
+}
+.nav {
+  padding-top: 20px;
+}
+.nav-item {
+  font-size: 17px;
+  padding-right: 23px;
+  color: #fff;
+}
+.nav-item:last-child {
+  margin-right: 414px;
+}
+@media (max-width: $xs-screen) {
+  .nav-item:last-child {
+    margin-right: 0;
+  }
+}

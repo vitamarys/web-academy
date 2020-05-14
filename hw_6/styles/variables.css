@@ -1,0 +1,8 @@
+:root {
+  --page-content-max-width: 1440px;
+  --base-text-color: #ffffff;
+  --base-font-size: 15px;
+  --base-font-family: "Roboto";
+  --header-font-size: 42px;
+  --base-bg-color: #2426bb;
+}

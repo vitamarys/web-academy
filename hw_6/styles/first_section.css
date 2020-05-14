@@ -1,0 +1,92 @@
+.baner-section {
+  display: flex;
+  flex-wrap: wrap;
+}
+.action-buttons {
+  display: flex;
+}
+.btn {
+  position: relative;
+  border: none;
+  width: 90px;
+  height: 90px;
+  margin: 0 10px 10px 0;
+}
+.large {
+  position: relative;
+  width: 190px;
+  height: 90px;
+  background: #d09d18;
+}
+.button-image {
+  position: absolute;
+  top: 18px;
+  left: 28px;
+}
+.button-name {
+  font-size: var(--base-font-size);
+  position: absolute;
+  left: 6px;
+  top: 68px;
+}
+.large > .button-image {
+  position: absolute;
+  top: 18px;
+  left: 76px;
+}
+.btn:first-child {
+  background-color: #af16b3;
+}
+.btn:nth-child(2) {
+  background-color: #16b3a9;
+}
+.btn:nth-child(4) {
+  background-color: #16b34b;
+}
+.btn:nth-child(5) {
+  background-color: #b31616;
+}
+
+@media (max-width: 767px) {
+  .action-buttons {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .button-image {
+    width: 52px;
+    height: 54px;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+  }
+  .large > .button-image {
+    position: absolute;
+    top: 20%;
+  }
+  .button-name {
+    position: absolute;
+    top: 80%;
+    font-size: 20px;
+  }
+  .btn {
+    position: relative;
+    border: none;
+    width: 140px;
+    height: 140px;
+    margin: 0 16px 16px 0;
+  }
+  .large {
+    position: relative;
+    width: 296px;
+    height: 158px;
+    background: #d09d18;
+  }
+  .large > .button-image {
+    width: 92px;
+    height: 83px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
