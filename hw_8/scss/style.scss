@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+span,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.traffic-light {
+  margin: 0 auto;
+  width: 92px;
+  border: 1px solid black;
+}
+
+.light {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  border: 1px solid black;
+  &-red {
+    &.active {
+      background-color: red;
+    }
+  }
+  &-yellow {
+    &.active {
+      background-color: yellow;
+    }
+  }
+  &-green {
+    &.active {
+      background-color: green;
+    }
+  }
+}
